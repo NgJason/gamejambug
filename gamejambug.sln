@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{E68C10D7-AD74-6DB2-5B45-50C965F9B8AD}") = "gamejambug", "Assembly-CSharp.csproj", "{481D4360-4096-4F09-7AB9-65D9E75E6B51}"
 EndProject
-Project("{E68C10D7-AD74-6DB2-5B45-50C965F9B8AD}") = "gamejambug", "Assembly-UnityScript-Editor.unityproj", "{D8868361-EF4F-53F9-43CD-5C32AD5D6BA3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,16 +13,11 @@ Global
 		{481D4360-4096-4F09-7AB9-65D9E75E6B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{481D4360-4096-4F09-7AB9-65D9E75E6B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{481D4360-4096-4F09-7AB9-65D9E75E6B51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8868361-EF4F-53F9-43CD-5C32AD5D6BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8868361-EF4F-53F9-43CD-5C32AD5D6BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8868361-EF4F-53F9-43CD-5C32AD5D6BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8868361-EF4F-53F9-43CD-5C32AD5D6BA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-			GlobalSection(MonoDevelopProperties) = preSolution
+							GlobalSection(MonoDevelopProperties) = preSolution
 =======
 								GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> FETCH_HEAD

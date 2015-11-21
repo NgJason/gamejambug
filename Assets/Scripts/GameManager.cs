@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 		if(currScene == Scenes.Main)
 		{
 			currScene = Scenes.Game;
-			Application.LoadLevel("Game");
+			Application.LoadLevel(1);
 		}
 	}
 
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 		if(currScene == Scenes.Game)
 		{
 			currScene = Scenes.Main;
-			Application.LoadLevel("Main");
+			Application.LoadLevel(0);
 		}
 	}
 
