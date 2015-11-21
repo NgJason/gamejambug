@@ -1,4 +1,8 @@
 ﻿<Properties>
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench />
+=======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\location.cs">
     <Files>
@@ -6,6 +10,7 @@
       <File FileName="Assets\Scripts\location.cs" Line="8" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+>>>>>>> FETCH_HEAD
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
