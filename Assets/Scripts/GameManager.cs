@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
 
 	void Start()
 	{
-		DontDestroyOnLoad(gameObject);
 		currScene = Scenes.Main;
 	}
 
