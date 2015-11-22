@@ -11,15 +11,14 @@ public class HealthSystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         curr_Health = max_Health;
-        InvokeRepeating("DecreasingHealth", 1f, 1f);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+        
 	}
 
-    void DecreasingHealth()
+    public void DecreasingHealth()
     {
         curr_Health -= 2f;
         float calc_Health = curr_Health / max_Health;
