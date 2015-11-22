@@ -75,4 +75,12 @@ public class enemy : MonoBehaviour
 
 		return false;
 	}
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
+            player.SendMessage("DecreaseHealth", 10);
+        }
+    }
 }
