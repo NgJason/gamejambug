@@ -9,8 +9,8 @@ public class PauseMenu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         PauseCanvas.enabled = false;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
@@ -18,8 +18,8 @@ public class PauseMenu : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.P))
         {
             Time.timeScale = 0;
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            //Cursor.lockState = CursorLockMode.None;
+            //Cursor.visible = true;
             PauseCanvas.enabled = true;
         }
 	}
@@ -27,8 +27,8 @@ public class PauseMenu : MonoBehaviour {
     public void Resume()
     {
         Time.timeScale = 1;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
         PauseCanvas.enabled = false;
     }
 
