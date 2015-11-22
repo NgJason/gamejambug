@@ -12,5 +12,12 @@ public class SceneManager : MonoBehaviour
 	public void CrystalPickup()
 	{
 		crystalsLeft -= 1;
+		IsGameOver ();
+	}
+
+	void IsGameOver(){
+		if (crystalsLeft <= 1) {
+			Application.LoadLevel(2);
+		}
 	}
 }
