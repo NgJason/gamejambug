@@ -47,11 +47,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\Crystal.cs" />
+     <Compile Include="Assets\Scripts\CrystalDestroy.cs" />
+     <Compile Include="Assets\Scripts\CrystalPickup.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\HealthSystem.cs" />
-     <Compile Include="Assets\Scripts\HealthUI.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SceneManager.cs" />
      <Compile Include="Assets\Scripts\agentScript.cs" />
      <Compile Include="Assets\Scripts\enemy.cs" />
      <Compile Include="Assets\Scripts\location.cs" />
