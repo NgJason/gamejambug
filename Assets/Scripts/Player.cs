@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     CharacterController c;
     public float moveSpeed = 1;
     private Vector3 pos;
+
+    public HealthSystem healthBar;
     // Use this for initialization
 
     void Start()
@@ -88,4 +90,12 @@ public class Player : MonoBehaviour
 
         c.Move(pos * Time.deltaTime);
     }
+
+    //public void OnCollisionEnter(Collision col)
+    //{
+    //    if (col.gameObject.tag == "Enemy")
+    //    {
+    //        healthBar.DecreaseHealth(10);
+    //    }
+    //}
 }

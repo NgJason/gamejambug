@@ -78,8 +78,9 @@ public class enemy : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
+            print("it's hitting");
             player.SendMessage("DecreaseHealth", 10);
         }
     }
