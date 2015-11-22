@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
 {
 
     CharacterController c;
-    public float moveSpeed = 2;
+    public float moveSpeed = 1;
     private Vector3 pos;
     // Use this for initialization
 
@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     void Move()
     {
         pos = Vector3.zero;
-        pos = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+		pos = new Vector3(-Input.GetAxis("Horizontal"), 0, -Input.GetAxis("Vertical"));
         pos = transform.TransformDirection(pos);
         pos *= moveSpeed;
 

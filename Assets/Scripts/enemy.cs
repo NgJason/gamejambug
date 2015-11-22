@@ -29,7 +29,7 @@ public class enemy : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if(SeesPlayer)
+		if(SeesPlayer())
 		{
 			agent.SetDestination(player.position);
 			timeLeft = giveUpTime;
@@ -52,11 +52,11 @@ public class enemy : MonoBehaviour
 			{	currState = State.PatrollingA;	}
 			break;
 		case State.PatrollingA:
-			if(Vector3.Distance(transform.position, patrolA) < .1)
+			if(Vector3.Distance(transform.position, patrolA.position) < .1)
 			{	currState = State.PatrollingB;	}
 			break;
 		case State.PatrollingB:
-			if(Vector3.Distance(transform.position, patrolB) < .1)
+			if(Vector3.Distance(transform.position, patrolB.position) < .1)
 			{	currState = State.PatrollingA;	}
 			break;
 		}

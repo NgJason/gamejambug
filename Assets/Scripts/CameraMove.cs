@@ -14,13 +14,13 @@ public class CameraMove : MonoBehaviour
 
 	void Update()
 	{
-		if(Vector3.Distance(transform.position, player.position) > 2)
+		if(Vector3.Distance(transform.position, player.position) > .3)
 		{	lerp = true;	}
-		else if(Vector3.Distance(transform.position, player.position) < 1.5)
+		else if(Vector3.Distance(transform.position, player.position) < .2)
 		{	lerp = false;	}
 
 		if(lerp)
-		{	transform.position = Vector3.Lerp(transform.position, player.position, Time.deltaTime * 2);	}
+		{	transform.position = Vector3.Lerp(transform.position, player.position, Time.deltaTime * 3);	}
 	}
 	
 	// Update is called once per frame
